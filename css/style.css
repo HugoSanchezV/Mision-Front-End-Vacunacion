@@ -1,0 +1,449 @@
+::root {
+  --fuentePrincipal: "Fredoka", sans-serif;
+  --primario: #fff;
+  --azulOscuro: #244375;
+  --azulSecundario: #3e5885;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 60px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* GLOBALES */
+body {
+  background-color: var(--primario);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #244375;
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+
+  font-size: 0.5rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  text-decoration: none;
+}
+
+img {
+  max-width: 160%;
+}
+
+.principal {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navegacionD {
+  color: gray;
+}
+
+.navegacion {
+
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  border-bottom: 0%;
+  border-top: 2rem;
+  position: absolute;
+  text-align: center;
+
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 60.6% 39.4%;
+
+  margin: 1rem;
+  margin-top: 0rem;
+  padding: 0;
+}
+
+.imagen {
+  margin-right: 3.4rem;
+}
+
+.PrimerTitulo {
+  margin-top: 2rem;
+}
+
+.imgEnfermera {
+  text-align: center;
+}
+
+
+p {
+  color: gray;
+}
+
+.barra {
+  color: gray;
+  font-size: 0.5rem;
+
+  position: absolute;
+  top: 6rem;
+  left: 4rem;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 3rem;
+
+  border-radius: 5px;
+  margin-top: 1rem;
+  z-index: 0;
+}
+
+.txtOscuro {
+  color: #244375;
+}
+
+.txtAzulClaro {
+  color: #3e5885;
+}
+
+.barra {
+  display: grid;
+  grid-column: 50% 50%;
+}
+
+
+
+.sombra {
+  -webkit-box-shadow: 2px 8px 19px 2px rgba(163, 163, 163, 1);
+  -moz-box-shadow: 2px 8px 19px 2px rgba(163, 163, 163, 1);
+  box-shadow: 2px 8px 19px 2px rgba(163, 163, 163, 1);
+
+
+  border-radius: 15px;
+  padding-left: .5rem;
+  margin-bottom: .5rem;
+}
+
+.barra {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: .5rem;
+  padding: 0%;
+
+  border-bottom: 15px;
+
+  border-radius: 15px;
+}
+
+.question {
+  margin: 1rem;
+}
+
+
+
+.SelectVacuna {
+
+  -webkit-box-shadow: 2px 8px 19px 2px rgba(163, 163, 163, 1);
+  -moz-box-shadow: 2px 8px 19px 2px rgba(163, 163, 163, 1);
+  box-shadow: 2px 8px 19px 2px rgba(163, 163, 163, 1);
+
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  font-size: 0.5rem;
+  right: 7rem;
+  top: 10.5rem;
+  box-shadow: 1rem;
+  border-radius: 0.2rem;
+  display: grid;
+  grid-template-columns: 4;
+  grid-template-rows: 2;
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+}
+
+.one {
+  margin-right: 10rem;
+  grid-column: 1/4;
+  grid-row: 1;
+}
+
+.two {
+
+  grid-column: 3;
+  grid-row: 1/2;
+}
+
+.three {
+  margin-right: 1.5rem;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.four {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.five {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.six {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.seven {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.btnAzul {
+  background-color: #244375;
+  color: white;
+  margin-left: 1rem;
+  margin-top: 10px;
+  margin-bottom: 0.2rem;
+  padding: 4px 8px;
+
+  border: #244375;
+  border-radius: 5px;
+}
+
+.desplegable {
+  position: absolute;
+  left: 7rem;
+  padding: 0rem;
+
+}
+
+.links {
+  display: none;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-color: rgb(204, 202, 202);
+}
+
+.boton {
+  border: none;
+  color: #244375;
+  padding: 0.1rem;
+}
+
+.desplegable:hover .links {
+  display: block;
+}
+
+
+.vacunas {
+  display: flex;
+  margin-right: 3.5rem;
+  margin-left: 3.5rem;
+}
+
+.vac {
+  margin-right: 1rem;
+}
+
+.letraPequeña {
+  font-size: 0.5rem;
+  margin-top: 0%;
+
+}
+
+.acordion {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: rgba(234, 234, 241, 0.363);
+  color: blue;
+  cursor: pointer;
+  color: darkblue;
+  line-height: 45px;
+  border-radius: 7px;
+}
+
+.bene {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: .5rem;
+  color: #244375;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+.Tercera {
+  display: grid;
+  margin: 1rem;
+  grid-template-columns: 50% 50%;
+}
+
+
+.desplegableTercera {
+  background-color: #fff;
+  padding: 0rem;
+  margin: 0rem;
+  margin-bottom: 0.2rem;
+}
+
+.btnDesplegable {
+  background-color: #fff;
+  border-color: rgba(66, 144, 196, 0.15);
+  display: block;
+  margin: 0;
+  font-size: 0.7rem;
+  color: #244375;
+  width: 100%;
+  border-radius: 0.2rem;
+  text-align: start;
+
+}
+
+.linkTercera {
+  display: none;
+  list-style-type: none;
+  font-size: 0.2rem;
+  color: gray;
+}
+
+.desplegableTercera:hover .linkTercera {
+  display: block;
+}
+
+.cuarta {
+  margin: 1rem;
+  width: 50%;
+}
+
+.quinta {
+  display: grid;
+  margin: 1rem;
+  grid-template-columns: 55% 45%;
+}
+
+
+.gridQuinta {
+  display: grid;
+  margin: 0;
+  margin-top: 2rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.quinta1,
+.quinta2 {
+  -webkit-box-shadow: 2px 8px 19px 2px rgba(163, 163, 163, 1);
+  -moz-box-shadow: 2px 8px 19px 2px rgba(163, 163, 163, 1);
+  box-shadow: 2px 8px 19px 2px rgba(163, 163, 163, 1);
+
+  border-radius: 0.3rem;
+  display: grid;
+  
+  margin-right: 0.8rem;
+  margin-bottom: 0.6rem;
+  padding: 0%;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gridIcon {
+  padding: 0rem;
+  margin-bottom: 0rem;
+}
+
+.gridText {
+  font-size: 0.35rem;
+  margin-right: 0.2rem;
+  padding: 0rem;
+}
+
+.gridIcon{
+  text-align: center;
+  padding: 0;
+  margin: 0rem;
+
+}
+
+.gridBtn1{
+  padding: 0rem;
+  margin: 0rem;
+  display: grid;
+  grid-column: 1/3;
+}
+.gridBtn{
+  font-size: 0.5rem;
+  color: #3e5885;
+  margin: 0rem 0.2rem 1rem 0.2rem;
+  padding: 0rem;
+
+  border-radius: 0.2rem;
+}
+
+.gridBtn:hover{
+  color: white;
+  background-color: #244375;
+}
+
+.piePagina{
+  background-color: rgb(224, 228, 240);
+  width: 100%;
+  padding: 1rem;
+}
+
+.tituloFooter{
+  font-size: 0.5rem;
+  color: #3f65a8;
+}
+
+.linksPie{
+  padding: 0%;
+  margin: 0%;
+}
+
+.informacion{
+  margin-left: 4rem;
+  display: flex;
+}
+
+.info{
+  display: flex;
+}
+
+.todark{
+  color: #244375;
+}
+.linksInformacion{
+  margin-left: 0.8rem;
+}
+
+.mision{
+  width: 40%;
+}
+
+.final,
+.infoAbajo,
+.infoIzq{
+  display: flex;
+}
+
+.infoIzq{
+  margin-left: 11rem;
+}
+
